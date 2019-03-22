@@ -1,0 +1,15 @@
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    fast_excel (0.2.6)
+      ffi (> 1.9, < 2)
+    ffi (1.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fast_excel (~> 0.2.6)
+
+BUNDLED WITH
+   1.17.2

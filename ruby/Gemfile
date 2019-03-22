@@ -1,0 +1,3 @@
+source 'https://gems.ruby-china.com'
+
+gem 'fast_excel', '~> 0.2.6'
