@@ -20,7 +20,7 @@ def test():
 	wb.save("output/python/output.xlsx")
 	end_timestamp = time.time()
 
-	print("Writing 10000x50 cells of data takes %f seconds" % (end_timestamp - begin_timestamp))
+	print("Python: Writing 10000x50 cells of data takes %f seconds" % (end_timestamp - begin_timestamp))
 
 
 if __name__ == '__main__':
