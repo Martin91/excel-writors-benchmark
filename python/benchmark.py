@@ -17,7 +17,7 @@ def test():
 	begin_timestamp = time.time()
 	wb = Workbook()
 	wb.new_sheet("sheet name", data=generate_data())
-	wb.save("output/python/output.xlsx")
+	wb.save("output/python.xlsx")
 	end_timestamp = time.time()
 
 	print("Python: Writing 10000x50 cells of data takes %f seconds" % (end_timestamp - begin_timestamp))
