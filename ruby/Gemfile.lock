@@ -1,15 +1,21 @@
 GEM
   remote: https://gems.ruby-china.com/
   specs:
-    fast_excel (0.2.6)
-      ffi (> 1.9, < 2)
-    ffi (1.10.0)
+    axlsx (2.0.1)
+      htmlentities (~> 4.3.1)
+      nokogiri (>= 1.4.1)
+      rubyzip (~> 1.0.0)
+    htmlentities (4.3.4)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
+    rubyzip (1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  fast_excel (~> 0.2.6)
+  axlsx (~> 2.0, >= 2.0.1)
 
 BUNDLED WITH
    1.17.2

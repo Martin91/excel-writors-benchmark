@@ -1,4 +1,3 @@
-from random import randint
 import time
 
 from pyexcelerate import Workbook
@@ -10,7 +9,7 @@ def generate_data():
 	data = [[0] * COLS] * ROWS
 	for row in range(ROWS):
 		for col in range(COLS):
-			data[row][col] = randint(1, 10000)
+			data[row][col] = row + col
 	return data
 
 def test():
