@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	rows := 10000
+	rows := 100000
 	cols := 50
 
 	data := make([][]int, rows)

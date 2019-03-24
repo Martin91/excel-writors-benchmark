@@ -1,6 +1,6 @@
 require 'axlsx'
 
-ROWS = 10000
+ROWS = 100000
 COLS = 50
 
 def generate_test_data()
